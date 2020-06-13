@@ -1,7 +1,7 @@
 # VideoTitling
 
 Official github repo for the paper
-> Shengyu Zhang, Ziqi Tan, Jin Yu, Zhou Zhao, Kun Kuang, Tan Jiang, Hongxia Yang, Fei Wu and Jingren Zhou. Comprehensive Information Integration Modeling Framework for Video Titling, In SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2020.
+> Shengyu Zhang, Ziqi Tan, Jin Yu, Zhou Zhao, Kun Kuang, Tan Jiang, Jingren Zhou, Hongxia Yang and Fei Wu. Comprehensive Information Integration Modeling Framework for Video Titling, In SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2020.
 
 ## Dataset
 
@@ -24,9 +24,14 @@ ${videoid}:
   'attributes': [${product attribute 1}, ${product attribute 2}, ..., ${product attribute N}],
   'video_id': ${videoid},
   'title': ${video title}，
-  'split': ${belong to which dataset split} $ [0(train), 1(val), 2(test)],
+  'split': ${belong to which dataset split} $ [0(train), 1(val), 2(test), 3(not used)],
 }
 ```
+We note that the 3(not used) split denotes those data samples not used by Gavotte during either training, validation or testing. These samples are removed after data preprocessing as illustrated in the paper.
+
+[[Google Drive]](https://www.google.com)
+
+
 
 ## Code
 Due to a tight schedual, the source code of Gavotte is not ready for a clean release right now. We will pick up the code refracting procedure if we have a time table.
