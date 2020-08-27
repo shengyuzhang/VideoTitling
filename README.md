@@ -29,7 +29,7 @@ ${videoid}:
 ```
 We note that the 3(not used) split denotes those data samples not used by Gavotte during either training, validation or testing. These samples are removed after data preprocessing as illustrated in the paper.
 
-Due to the **data-release regularities** of Alibaba, we now **remove** the data link. We will open the download channel when the data-release workflow is **approved** by Alibaba. Please **do not** distribute the copy if you obtained it from the previous data link. We are sorry for the inconvenience. 
+Due to the **data-release regularities** of Alibaba, we now **remove** the original google drive download link. Dataset now can be downloaded from [Tianchi](https://tianchi.aliyun.com/dataset/dataDetail?dataId=75173).
 
 
 
